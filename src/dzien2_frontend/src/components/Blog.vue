@@ -4,7 +4,7 @@
         siema blog
         {{ wpisy }}
         <input v-model="nowyBlog" type="text">
-        <button @click="dodajWpis">dodaj</button>
+        <button @click="dodajWpisy">dodaj</button>
     </div>
 </template>
 
