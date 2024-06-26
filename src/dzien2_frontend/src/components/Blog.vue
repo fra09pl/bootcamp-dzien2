@@ -5,7 +5,8 @@
             <button @click="pobierzWpisy" class="bg-blue-600 rounded text-white p-4">refresh</button>
         </div>
         <div class="grid mx-6 gap-4 my-4">
-            <div v-for="wpis in wpisy" class="drop-shadow-x1 bg-stone-300">
+            <div v-for="(wpis, index) in wpisy" class="drop-shadow-x1 bg-stone-300">
+                <p>{{ index }}</p>
                 <p>{{ wpis }}</p>
             </div>
         </div>
